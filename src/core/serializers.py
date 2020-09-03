@@ -5,5 +5,5 @@ class PostSerializers(serializers.ModelSerializer):
     class Meta:
         model = Post
         fields = (
-            'title','description'
+            'title','description','owner'
         )
